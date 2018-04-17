@@ -6,8 +6,8 @@ Repo that contains the notes from my unix server navigation learning.
 
 ### Check current processes
 
-#### jps
-`jps [ options ] [ hostid ]`
+#### `jps [ options ] [ hostid ]`
+
 
   `jps -l`
   * lists java processes with names
