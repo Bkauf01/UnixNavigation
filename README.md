@@ -6,11 +6,14 @@ Repo that contains the notes from my unix server navigation learning.
 
 ### Check current processes
 
-`jps -l`
-* lists java processes with names
+#### jps
+`jps [ options ] [ hostid ]`
 
-`jps -l | sort -k2`
-* lists java processes with names, sorting alphabetically by the second column of data(app name)
+  `jps -l`
+  * lists java processes with names
+
+  `jps -l | sort -k2`
+  * lists java processes with names, sorting alphabetically by the second column of data(app name)
 
 `ps -o etime= -p "$$" `
 * displays the time the process with PID "$$" has been running
